@@ -1,0 +1,17 @@
+{
+  "name": "naija-exports",
+  "version": "1.0.0",
+  "description": "Premium Nigerian Produce Export Site",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemailer": "^6.9.0",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^7.4.0"
+  }
+}
