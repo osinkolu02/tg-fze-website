@@ -25,7 +25,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
 
-document.querySelectorAll('.value-card, .service-chip, .service-detail, .step-h, .facility-card, .proof-item, .contact-card, .industry-card, .contact-note, .q-card').forEach((el, i) => {
+document.querySelectorAll('.value-card, .service-chip, .service-detail, .step-h, .facility-card, .proof-item, .contact-card, .industry-block, .use-case, .contact-note').forEach((el, i) => {
   el.classList.add('fade-up');
   el.style.transitionDelay = `${i % 3 * 80}ms`;
   observer.observe(el);
